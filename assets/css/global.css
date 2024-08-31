@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ITC";
+  font-weight: 400;
+  src: url("../fonts/ITC-Book.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "ITC";
+  font-weight: 500;
+  src: url("../fonts/ITC-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "ITC";
+  font-weight: 700;
+  src: url("../fonts/ITC-Bold.otf") format("truetype");
+}
+
+.dm-font {
+  font-family: "ITC";
+}
+
+.icon-rm-mg {
+  margin-bottom: 0 !important;
+}
