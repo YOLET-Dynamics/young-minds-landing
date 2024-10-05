@@ -46,7 +46,6 @@
 </template>
 
 <script>
-import { NuxtImg } from "#build/components";
 import MainButton from "~/components/MainButton.vue";
 
 export default {
