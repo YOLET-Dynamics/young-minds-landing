@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="xl:basis-1/2 xl:flex xl:flex-col xl:justify-center">
-      <img
+      <NuxtImg
         src="~/assets/imgs/child-rm-bg.jpg"
         class="w-full rounded-md"
         alt="Child revolving a globe"
@@ -46,6 +46,7 @@
 </template>
 
 <script>
+import { NuxtImg } from "#build/components";
 import MainButton from "~/components/MainButton.vue";
 
 export default {
