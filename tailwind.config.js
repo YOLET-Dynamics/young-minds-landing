@@ -50,4 +50,5 @@ module.exports = {
       },
     },
   },
+  plugins: [require("tailwind-hamburgers"), require("tailwindcss-animate")],
 };

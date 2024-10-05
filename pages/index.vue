@@ -1,22 +1,12 @@
 <template>
   <Head>
     <Title>YoungMinds Initiative</Title>
-    <Meta name="description" content="One step at a time" />
+    <Meta
+      name="description"
+      content="A platform for enabling children to learn and grow, one step at a time."
+    />
   </Head>
-  <div class="h-screen flex flex-col justify-between dm-font">
-    <div class="flex flex-col">
-      <main></main>
-    </div>
-    <Footer />
+  <div class="flex flex-col gap-8 items-center justify-center">
+    <Hero />
   </div>
 </template>
-
-<script>
-import Footer from "~/components/Footer.vue";
-
-export default {
-  components: {
-    Footer,
-  },
-};
-</script>
