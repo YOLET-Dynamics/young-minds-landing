@@ -57,11 +57,11 @@ export default {
       buttonClass1:
         "w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
       buttonText1: "Donate",
-      buttonLink1: "/",
+      buttonLink1: "/donations",
       buttonClass2:
         "w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
       buttonText2: "Learn More",
-      buttonLink2: "/",
+      buttonLink2: "/initiatives",
     };
   },
 };

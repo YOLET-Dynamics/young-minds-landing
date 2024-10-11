@@ -42,7 +42,7 @@ export default {
       buttonClass:
         "w-full py-2 px-2 sm:py-3 sm:px-4 lg:py-3 lg:px-4 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
       buttonText: "Donate",
-      buttonLink: "/",
+      buttonLink: "/donations",
     };
   },
   mixins: [toggleHam],

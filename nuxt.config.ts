@@ -17,4 +17,9 @@ export default defineNuxtConfig({
     },
   },
   ssr: true,
+  runtimeConfig: {
+    public: {
+      stripeKey: process.env.NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
+    },
+  },
 });
