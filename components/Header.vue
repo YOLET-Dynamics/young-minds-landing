@@ -6,15 +6,15 @@
     <!-- Header Logo -->
     <NuxtLink to="/">
       <img
-        src="~/assets/imgs/logo-02-06.png"
+        src="~/assets/imgs/logo-02-04.png"
         class="h-14 md:h-20 lg:h-24 xl:h-28"
-        alt="YoungMinds Inc Logo"
+        alt="YoungMinds ET Inc Logo"
       />
     </NuxtLink>
     <!-- Nav Links -->
     <div>
       <ul
-        class="flex justify-between gap-16 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl"
+        class="flex justify-between gap-12 lg:gap-16 xl:gap-36 font-body responsive-link-text lg:text-xl"
       >
         <li class="cursor-pointer text-button-links">
           <NuxtLink to="/initiatives">Initiatives</NuxtLink>
@@ -22,6 +22,10 @@
         <span class="hidden lg:flex">/</span>
         <li class="hidden lg:flex cursor-pointer text-button-links">
           <NuxtLink to="/our-story">Our Story</NuxtLink>
+        </li>
+        <span class="hidden lg:flex">/</span>
+        <li class="hidden lg:flex cursor-pointer text-button-links">
+          <NuxtLink to="/contact">Be Part of It</NuxtLink>
         </li>
       </ul>
     </div>

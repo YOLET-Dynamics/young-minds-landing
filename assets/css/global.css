@@ -20,7 +20,7 @@
   src: url("../fonts/ITC-Bold.otf") format("truetype");
 }
 
-.main-font{
+.main-font {
   font-family: "ITC";
 }
 
@@ -85,5 +85,19 @@
 
   .transition-enlarge {
     transition: font-size 300ms ease;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-lg transition-shadow duration-300 ease-in-out cursor-pointer;
+  }
+  .card:hover {
+    @apply shadow-xl;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
