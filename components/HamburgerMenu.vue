@@ -6,10 +6,14 @@
     <ul class="flex flex-col gap-8 w-72 h-auto items-start font-body text-base">
       <div class="w-full flex flex-col gap-4">
         <div class="flex justify-between items-center">
-          <li class="active:text-ymGreen-700">Our Story</li>
+          <NuxtLink to="/our-story" class="active:text-ymGreen-700"
+            ><li>Our Story</li></NuxtLink
+          >
         </div>
         <div class="flex justify-between items-center">
-          <li class="active:text-ymGreen-700">Get in Touch</li>
+          <NuxtLink to="/contact" class="active:text-ymGreen-700"
+            ><li>Get in Touch</li></NuxtLink
+          >
         </div>
       </div>
 

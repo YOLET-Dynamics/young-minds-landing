@@ -3,7 +3,7 @@
     <Title>Youngminds ET | Our Story</Title>
     <Meta name="description" content="YoungMind's origin story and values." />
   </Head>
-  <div class="mt-28 lg:mt-48 responsive-px py-4 col-flex gap-8">
+  <div class="mt-28 md:mt-40 lg:mt-48 responsive-px py-4 col-flex gap-8">
     <div
       class="lg:w-5/6 w-full xl:mt-8 flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"
     >
@@ -17,9 +17,9 @@
           class="flex flex-col gap-4 lg:gap-10 font-body font-normal text-sm xl:text-lg xl:leading-10"
         >
           <p>
-            Our mission is to make education accessible to children in need by
-            utilizing existing resources and fostering a sense of community to
-            create equal opportunities for all.
+            Our mission is to provide underserved students with access to
+            quality education through sustainable initiatives supported by
+            technological infrastructure and innovative learning tools
           </p>
           <p>
             We believe that every child deserves the chance to learn and grow,
