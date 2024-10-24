@@ -190,8 +190,8 @@ export default {
           <FormButton :buttonClass="buttonClass" :buttonText="buttonText" />
         </form>
       </div>
-      <img
-        src="~/assets/imgs/child-rm-bg.jpg"
+      <NuxtImg
+        src="/child-rm-bg.jpg"
         class="hidden lg:inline-block lg:basis-1/2 lg:w-1/2 lg:h-full rounded-md"
         alt="Child revolving a globe"
       />

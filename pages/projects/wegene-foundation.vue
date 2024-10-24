@@ -46,7 +46,7 @@
       <div class="flex flex-col gap-4 font-body font-normal text-sm xl:text-lg">
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <h3 class="text-2xl font-semibold mb-4">Project Goal</h3>
-          <p>Sponsor 5-10 students who are underserved</p>
+          <p>Sponsor 12 students who are underserved</p>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-lg">
           <h3 class="text-2xl font-semibold mb-4">Target Audience</h3>
@@ -63,10 +63,10 @@
             </thead>
             <tbody>
               <tr>
-                <td class="py-2 px-4 border-b">
+                <td class="p-6 border-b">
                   <strong>School Supply Assistance</strong>
                 </td>
-                <td class="py-2 px-4 border-b">
+                <td class="p-6 border-b">
                   Covers registration and tuition fees, school attire, and
                   supplies such as notebooks, pens, pencils, etc. Provided as
                   long as students are enrolled and maintain their standing in
@@ -74,27 +74,27 @@
                 </td>
               </tr>
               <tr>
-                <td class="py-2 px-4 border-b"><strong>Mentorship</strong></td>
-                <td class="py-2 px-4 border-b">
+                <td class="p-6 border-b"><strong>Mentorship</strong></td>
+                <td class="p-6 border-b">
                   Monthly check-ins to track progress, quarterly grade reports,
                   one-on-one and group coaching. Students mentor younger peers,
                   guided by the Young Minds team.
                 </td>
               </tr>
               <tr>
-                <td class="py-2 px-4 border-b">
+                <td class="p-6 border-b">
                   <strong>Access to MemhirET</strong>
                 </td>
-                <td class="py-2 px-4 border-b">
+                <td class="p-6 border-b">
                   Access to a supplemental educational platform with question
-                  banks, online educator videos, and tutoring opportunities.
+                  banks, personalized study-guides and test-prep paths.
                 </td>
               </tr>
               <tr>
-                <td class="py-2 px-4 border-b">
+                <td class="p-6 border-b">
                   <strong>Career Coaching</strong>
                 </td>
-                <td class="py-2 px-4 border-b">
+                <td class="p-6 border-b">
                   Empowers students to discover their purpose and develop
                   skills. Provides resources such as internship and volunteering
                   opportunities, and courses to practice soft and hard skills.

@@ -51,25 +51,25 @@ export default {
     return {
       subscriptionModels: [
         {
-          amount: "$3",
-          description: "Pennies",
-          link: "https://buy.stripe.com/28o7sXdp8c5uduo4gi",
-          caption: "One exercise book and stationary supplies",
-          default: false,
-        },
-        {
           amount: "$5",
           description: "Couple of Pennies",
           link: "https://buy.stripe.com/8wM9B598Sc5u3TOdQR",
           caption: "Couple of exercise books and stationary supplies",
-          default: true,
+          default: false,
         },
         {
           amount: "$10",
           description: "A Whole Dollar",
           link: "https://buy.stripe.com/5kAcNh4SCb1q3TOaEH",
           caption: "Exercise books, stationary supplies and a school bag",
-          default: false,
+          default: true,
+        },
+        {
+          amount: "$50",
+          description: "A Whole Meal",
+          link: " https://buy.stripe.com/3cs8x11Gq8TigGA6ot",
+          caption: "We can go a long way",
+          default: true,
         },
       ],
     };

@@ -33,8 +33,8 @@
       </div>
     </div>
     <div class="xl:basis-1/2 xl:flex xl:flex-col xl:justify-center">
-      <img
-        src="~/assets/imgs/child-rm-bg.jpg"
+      <NuxtImg
+        src="/child-rm-bg.jpg"
         class="w-full rounded-md"
         alt="Child revolving a globe"
       />

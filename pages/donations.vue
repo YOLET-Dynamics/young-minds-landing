@@ -33,7 +33,7 @@
           :key="index"
           :title="card.title"
           :caption="card.caption"
-           :link="card.link"
+          :link="card.link"
           :buttonText="card.buttonText"
           :isActive="card.isActive"
         />
@@ -64,7 +64,7 @@ export default {
           title: "One-time",
           caption:
             "Make a difference today—your one-time gift can help a child in need take a step closer to a brighter future.",
-          link: "https://donate.stripe.com/00g9B5fxgglKgGA000",
+          link: "https://donate.stripe.com/7sI9B53Oy4D29e8cMS",
           buttonText: "Donate",
           isActive: false,
         },
