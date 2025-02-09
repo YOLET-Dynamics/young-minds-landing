@@ -3,28 +3,26 @@
     <Title>Youngminds ET | Our Story</Title>
     <Meta name="description" content="YoungMind's ongoing initiatives" />
   </Head>
-  <div class="mt-28 md:mt-40 lg:mt-48 responsive-px py-4 col-flex gap-8">
-    <div
-      class="lg:w-5/6 w-full xl:mt-8 flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"
-    >
-      <div
-        class="md:basis-1/2 flex flex-col items-start gap-6 md:gap-10 md:justify-between"
+  <div class="mt-32 md:mt-48 lg:mt-56 responsive-px py-8">
+    <div class="max-w-7xl mx-auto">
+      <p class="font-display font-semibold text-3xl lg:text-4xl xl:text-6xl mb-4">
+        Our Initiatives
+      </p>
+      <p class="text-gray-600 text-lg mb-12 max-w-2xl">
+        Discover the projects and partnerships that are helping us shape the future of Ethiopia's youth.
+      </p>
+      <div 
+        class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 w-full auto-rows-fr"
       >
-        <p class="font-display font-semibold text-3xl lg:text-4xl xl:text-6xl">
-          Our Initiatives
-        </p>
-        <div
-          class="flex flex-col gap-4 lg:gap-10 font-body font-normal text-sm xl:text-lg xl:leading-10"
-        >
-          <InitiativeCard
-            v-for="initiative in initiatives"
-            :key="initiative.id"
-            :title="initiative.title"
-            :description="initiative.description"
-            :image="initiative.image"
-            :route="initiative.route"
-          />
-        </div>
+        <InitiativeCard
+          v-for="initiative in initiatives"
+          :key="initiative.id"
+          :title="initiative.title"
+          :description="initiative.description"
+          :image="initiative.image"
+          :route="initiative.route"
+          class="transform transition-all duration-300 hover:scale-[1.02] hover:shadow-lg"
+        />
       </div>
     </div>
   </div>
@@ -43,6 +41,14 @@ export default {
       initiatives: [
         {
           id: 1,
+          title: "Adina Project",
+          description:
+            "Christ-centered initiative, dedicated to raising children with love, wisdom and purpose",
+          image: wegeneLogo,
+          route: "/projects/adina-project",
+        },
+        {
+          id: 2,
           title: "Collaboration with Wegene Foundation",
           description:
             "Collaboration with Wegene Ethiopia Foundation to provide access and empower the next generation through our first initiative - Student Sponsorshop Program.",
