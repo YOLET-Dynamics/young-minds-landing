@@ -31,6 +31,7 @@
 <script>
 import InitiativeCard from "@/components/InitiativeCard.vue";
 import wegeneLogo from "@/assets/imgs/wegene-logo.png";
+import youngmindsLogo from "@/assets/imgs/logo-02-04.png";
 
 export default {
   components: {
@@ -44,7 +45,7 @@ export default {
           title: "Adina Project",
           description:
             "Christ-centered initiative, dedicated to raising children with love, wisdom and purpose",
-          image: wegeneLogo,
+          image: youngmindsLogo,
           route: "/projects/adina-project",
         },
         {
